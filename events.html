@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Galerie Harfa</title>
+    <link rel="stylesheet" href="css/libs.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__logo">
+              <a href="#">
+                <img src="images/logo.png" alt="" />
+              </a>
+            </div>
+            <nav class="nav__menu">
+              <ul class="menu">
+                <li class="menu__list">
+                  <a class="menu__link" href="#">Shopping</a>
+                </li>
+                <li class="menu__list">
+                  <a class="menu__link" href="#">Foodcourt</a>
+                </li>
+                <li class="menu__list">
+                  <a class="menu__link" href="#">Beauty</a>
+                </li>
+                <li class="menu__list">
+                  <a class="menu__link" href="#">Relax</a>
+                </li>
+                <li class="menu__list">
+                  <a class="menu__link" href="#">Kids</a>
+                </li>
+                <li class="menu__list">
+                  <a class="menu__link" href="#">Parking</a>
+                </li>
+                <li class="menu__list">
+                  <a class="menu__link" href="#">O<sub>2</sub></a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="navbar">
+              <div class="navbar__btn">
+                <svg  width="26.437"
+                height="30" class="burger-open" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: #1d3354;
+                        fill-rule: evenodd;
+                      }
+                    </style>
+                  </defs><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+               
+                <svg
+                  class="burger-close"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16.44"
+                  height="16.44"
+                  viewBox="0 0 16.44 16.44"
+                >
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: none;
+                        stroke: #1d3354;
+                        stroke-width: 2px;
+                        fill-rule: evenodd;
+                      }
+                    </style>
+                  </defs>
+                  <path
+                    class="cls-1"
+                    d="M1885,3359l15,15m0-15-15,15"
+                    transform="translate(-1884.28 -3358.28)"
+                  />
+                </svg>
+              </div>
+              <div class="navbar__col">
+                <ul class="menu">
+                  <li class="menu__list">
+                    <a class="menu__link active" href="#">Home</a>
+                  </li>
+                  <li class="menu__list">
+                    <a class="menu__link" href="#">Shopping</a>
+                  </li>
+                  <li class="menu__list">
+                    <a class="menu__link" href="#">Foodcourt</a>
+                  </li>
+                  <li class="menu__list">
+                    <a class="menu__link" href="#">Beauty</a>
+                  </li>
+                  <li class="menu__list">
+                    <a class="menu__link" href="#">Relax</a>
+                  </li>
+                  <li class="menu__list">
+                    <a class="menu__link" href="#">Kids&Family</a>
+                  </li>
+                  <li class="menu__list">
+                    <a class="menu__link" href="#">Parking</a>
+                  </li>
+                  <li class="menu__list">
+                    <a class="menu__link" href="#">O<sub>2</sub></a>
+                  </li>
+                </ul>
+                <ul class="navbar__menu">
+                  <li class="navbar__list">
+                    <a class="navbar__link" href="#">Shops</a>
+                  </li>
+                  <li class="navbar__list">
+                    <a class="navbar__link" href="#">Best Deals</a>
+                  </li>
+                  <li class="navbar__list">
+                    <a class="navbar__link" href="#">Services</a>
+                  </li>
+                  <li class="navbar__list">
+                    <a class="navbar__link" href="#">News</a>
+                  </li>
+                  <li class="navbar__list">
+                    <a class="navbar__link" href="#">Events</a>
+                  </li>
+                  <li class="navbar__list">
+                    <a class="navbar__link" href="#">About Us</a>
+                  </li>
+                  <li class="navbar__list">
+                    <a class="navbar__link" href="#">Career</a>
+                  </li>
+                  <li class="navbar__list">
+                    <a class="navbar__link" href="#">Lease</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+    <main class="main events-page">
+        <section class="top top-main">
+            <div class="container">
+                <div class="top__inner">
+                    <div class="top__img">
+                        <img src="images/main-photo.jpg" alt="" />
+                        <div class="top-main__content">
+                            <h1 class="top-main__title">RozdáVÁme DÁRKY ZA miliOn</h1>
+                            <div class="top-main__subtitle">Nakupujte a vyhrávejte</div>
+                            <div class="top-main__subtitle">#RadostNavíc</div>
+                        </div>
+                    </div>
+
+                    <div class="decoration decoration--bottom">
+                        <span class="bg--pink"></span>
+                        <span class="bg--orange"></span>
+                        <span class="bg--green"></span>
+                        <span class="bg--ocean"></span>
+                        <span class="bg--yellow"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="best">
+            <div class="container">
+                <div class="best__top">
+                    <h2 class="shops__title"> <b>Upcoming</b> Events</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                        Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    </p>
+                </div>
+
+                <div class="best__inner">
+                    <form class="best__form filter__form">
+                        <div class="best__search">
+                            <button class="best__form-btn" type="submit">
+                                <img src="images/svg/best-search.svg" alt="" />
+                            </button>
+                            <input class="best__input" type="text" placeholder="search for shops, brands, food..." />
+                            <input class="best__input best__input--mob" type="text" placeholder="search for deals..." />
+                        </div>
+                        <div class="checkbox__inner">
+                            <div class="checkbox__box">
+                                <input name="concert" type="checkbox" id="concert" />
+                                <label for="concert">concert</label>
+                            </div>
+                            <div class="checkbox__box">
+                                <input name="sport" type="checkbox" id="sport" />
+                                <label for="sport">sport</label>
+                            </div>
+                            <div class="checkbox__box">
+                                <input name="food" type="checkbox" id="food" />
+                                <label for="food">food</label>
+                            </div>
+                            <div class="checkbox__box">
+                                <input name="calendar" type="checkbox" checked id="calendar" />
+                                <label for="calendar">calendar</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </section>
+        <section class="calendar">
+            <div id="calendar">
+                <div id="calendar-esports">
+                    <div class="header-month">
+                        <div class="arrow-circle arrow-prev">
+                            <i class=" arrow left"></i>
+                        </div>
+                        <p></p>
+                        <div class="arrow-circle arrow-next">
+                            <i class=" arrow right"></i>
+                        </div>
+                    </div>
+                    <div id="calendar-content"></div>
+                </div>
+            </div>
+        </section>
+        <section class="all-events-blocks">
+            <div class="block">
+                <h5>today</h5>
+                <div class="items-container">
+                    <a href="event-detail.html" class="item">
+                        <div class="item-content">
+                            <img src="images/event/1.jpg" alt="Event">
+                            <div class="button-div">
+                                <span>FROM 14:00</span><button>Přidat do kalendáře</button>
+                            </div>
+                            <p>Pigy a Lily setkání na Harfě 2020</p>
+                        </div>
+                    </a>
+                    <a href="event-detail.html" class="item">
+                        <div class="item-content">
+                            <img src="images/event/2.jpg" alt="Event">
+                            <div class="button-div">
+                                <span>FROM 14:00</span><button>Přidat do kalendáře</button>
+                            </div>
+                            <p>Pigy a Lily setkání na Harfě 2020</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="block">
+                <h5>listopad</h5>
+                <div class="items-container">
+                    <a href="event-detail.html" class="item">
+                        <div class="item-content">
+                            <img src="images/event/1.jpg" alt="Event">
+                            <div class="button-div">
+                                <span>10/3/2020</span><button>Přidat do kalendáře</button>
+                            </div>
+                            <p>Pigy a Lily setkání na Harfě 2020</p>
+                        </div>
+                    </a>
+                    <a href="event-detail.html" class="item">
+                        <div class="item-content">
+                            <img src="images/event/3.jpg" alt="Event">
+                            <div class="button-div">
+                                <span>21/11/2020</span><button>Přidat do kalendáře</button>
+                            </div>
+                            <p>Pigy a Lily setkání na Harfě 2020</p>
+                        </div>
+                    </a>
+                    <a href="event-detail.html" class="item">
+                        <div class="item-content">
+                            <img src="images/event/4.jpg" alt="Event">
+                            <div class="button-div">
+                                <span>23/11/2020</span><button>Přidat do kalendáře</button>
+                            </div>
+                            <p>Pigy a Lily setkání na Harfě 2020</p>
+                        </div>
+                    </a>
+                    <a href="event-detail.html" class="item">
+                        <div class="item-content">
+                            <img src="images/event/2.jpg" alt="Event">
+                            <div class="button-div">
+                                <span>25/11/2020</span><button>Přidat do kalendáře</button>
+                            </div>
+                            <p>Pigy a Lily setkání na Harfě 2020</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div id="map"></div>
+
+      <script type="text/javascript">
+
+      
+        var map;
+
+      
+        function initMap() {
+
+            map = new google.maps.Map(document.getElementById('map'), {
+              
+                center: {lat: 50.10384273543545,  lng: 14.49106584865871},
+                
+                zoom: 16
+            });
+            var marker = new google.maps.Marker({
+
+              position: {lat: 50.10384273543545,  lng: 14.49106584865871},
+
+              map: map,
+
+              title: 'Galerie Harfa',
+              icon: 'images/decorate/marker.png'
+          });
+   
+        }
+    </script>
+
+          <div class="social">
+            <div class="container">
+              <div class="social__menu">
+                <div class="social__box">
+                  <a class="social__link icon-youtube-play" href="#"></a>
+                  <a class="social__link icon-facebook-square" href="#"></a>
+                  <a class="social__link icon-instagram" href="#"></a>
+                </div>
+                <div class="social__box">
+                  <a class="social__link icon-twitter" href="#"></a>
+                  <a class="social__link icon-apple" href="#"></a>
+                  <a class="social__link icon-googleplay" href="#"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <section class="information sup-footer">
+            <div class="container">
+                <div class="information__inner">
+                    <div class="decoration">
+                        <span class="bg--pink"></span>
+                        <span class="bg--orange"></span>
+                        <span class="bg--green"></span>
+                        <span class="bg--ocean"></span>
+                        <span class="bg--yellow"></span>
+                    </div>
+                    <div class="information__item information__mail">
+                        <div class="information__title">Moje Harfa</div>
+                        <ul class="information__menu">
+                            <li class="information__list">Výběr toho nejlepšího ve vašem emailu</li>
+                        </ul>
+                        <form class="information__form">
+                            <input type="text" />
+                            <button class="icon-send" type="submit"></button>
+                        </form>
+                    </div>
+                    <div class="information__item">
+                        <div class="information__title">Opening hours</div>
+                        <ul class="information__menu">
+                            <li class="information__list">Středa 7. 10. 2010</li>
+                            <li class="information__list">Svátek má Justýna</li>
+                            <li class="information__list">Otevřeno <span>10.00 – 22.00</span></li>
+                        </ul>
+                    </div>
+                    <div class="information__item information__item--contact">
+                        <div class="information__title">Contact</div>
+                        <ul class="information__menu">
+                            <li class="information__list">GALERIE HARFA</li>
+                            <li class="information__list">Českomoravská 2420/15a</li>
+                            <li class="information__list">190 00 Praha 9 – Libeň</li>
+                            <li class="information__list">
+                                <a href="tel:420266055600">tel: +420 266 055 600</a>
+                            </li>
+                            <li class="information__list">
+                                <a href="mailto:info@galerieharfa.cz">e-mail: info@galerieharfa.cz</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="decoration">
+              <span class="bg--pink"></span>
+              <span class="bg--orange"></span>
+              <span class="bg--green"></span>
+              <span class="bg--ocean"></span>
+              <span class="bg--yellow"></span>
+            </div>
+            <div class="footer__row">
+              <div class="footer__col">
+                <h3 class="footer__title">Harfa for You</h3>
+                <ul class="footer__menu">
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">Shopping</a>
+                  </li>
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">Foodcourt</a>
+                  </li>
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">Beauty</a>
+                  </li>
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">Relax</a>
+                  </li>
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">Kids</a>
+                  </li>
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">Parking</a>
+                  </li>
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">O2</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__col">
+                <h3 class="footer__title">Pages</h3>
+                <ul class="footer__menu">
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">Shops</a>
+                  </li>
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">Best Deals</a>
+                  </li>
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">Services</a>
+                  </li>
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">News</a>
+                  </li>
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">Events</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__col">
+                <h3 class="footer__title">Harfa Gallery</h3>
+                <ul class="footer__menu">
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">About Us</a>
+                  </li>
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">Career</a>
+                  </li>
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">Cowork / Lease</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__col">
+                <h3 class="footer__title">Navigation</h3>
+                <ul class="footer__menu">
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">Directions</a>
+                  </li>
+                  <li class="footer__list">
+                    <a class="footer__link" href="#">Map</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__copy">© 2020 Galerie Harfa</div>
+            
+          </div>
+         
+        </div>
+      </footer>
+
+    <script src="js/Calendar.js"></script>
+
+    <script>
+
+        // 2d pole s daty, ktere se maji ukazat v kalendari. 
+        // Na prvnim indexu se zadava den, kde se ma akce v kalendari zobrazit ve formatu: "rok-mesic-den"
+        // Na druhem indexu je zbarveni polozky v kalendar
+        // Pote je dalsi prvek pole vypsan jako jedna akce a prvek za ni je kam smeruje odkaz po kliknuti na akci v kalendari
+        // např. "Akce 1", "https://www.google.cz",
+        // Pokud bude jen nazev akce, ale bude chybet odkaz, potom když se klikne na akci v kalendari, tak se nic nestane
+        var events = [
+            [new Date("2021-03-05"), "#7d2929",
+                "Pigy a Lily setkání na Harfě 2020", "event-detail.html",
+                "Další akce", "event-detail.html",
+            ],
+
+            [new Date("2021-03-18"), "#f7a941",
+                "Pigy a Lily setkání na Harfě 2020", "event-detail.html"
+            ],
+
+            [new Date("2021-04-10"), "#378acc",
+                "Pigy a Lily setkání na Harfě 2020", "event-detail.html"
+            ],
+        ];
+
+        // Iniciace kalendare, nasledna metoda print() vypise kalendar do divu s id indentifikatorem "calendar-content"
+        var calendar = new Calendar(events);
+        calendar.print();
+
+        // Element, ktery ma indentifikator "arrow-next" prepina kalendar dopredu
+        $(".arrow-next").click(function (e) {
+            calendar.nextMonth();
+        });
+
+        // Element, ktery ma indentifikator "arrow-prev" prepina kalendar dozadu
+        $(".arrow-prev").click(function (e) {
+            calendar.prevMonth();
+        });
+
+        // Funkce, ktera zajisti zobrazeni spravneho divu s informacema o eventu, na ktery na jedete mysi
+        function showEventDiv(id) {
+            $(".eventId" + id).show("fast");
+        }
+
+        // Funkce, ktera zajisti skryti spravneho divu s informacema o eventu kdyz odjedete mysi z dne
+        function hideEventDiv(id) {
+            $(".eventId" + id).hide("fast");
+        }
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQECbsQhR5FvtJUoRstpiu7ZkEMnJh9jg&callback=initMap&libraries=&v=weekly"
+    async
+  ></script> -->
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+.all-events-blocks{
+    padding-bottom: 60px;
+
+    h5{
+        font-size: 40px;
+        font-weight: 100;
+        padding: 0px 16px;
+        margin-top: 30px;
+    }
+
+    
+    .block{
+        .items-container{
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+
+            @media only screen and (max-width: 800px){
+                flex-direction: column;
+            }
+        }
+
+        .item{
+            width: 33.333333%;
+            display: block;
+            border-radius: 10px;
+            padding: 15px;
+            flex: 0 0 33.333333%;
+
+            @media only screen and (max-width: 1230px){
+                width: 50%;
+                flex: unset;
+
+                @media only screen and (max-width: 800px){
+                    width: 100%;
+                    margin: auto;
+                }
+            }
+
+            .item-content{
+                -webkit-box-shadow: 0px 0px 17px 5px rgba(224,224,224,1);
+                -moz-box-shadow: 0px 0px 17px 5px rgba(224,224,224,1);
+                box-shadow: 0px 0px 17px 5px rgba(224,224,224,1);
+                border-radius: 10px;
+
+                img{
+                    width: 100%;
+                    border-radius: 10px;
+                    border-bottom-left-radius: 0px;
+                    border-bottom-right-radius: 0px;
+                }
+    
+                .button-div{
+                    height: 50px;
+                    margin-top: 10px;
+                    padding-bottom: 10px;
+                    border-bottom: 1px solid #0000001a;
+                    padding: 0px 15px;
+    
+                    button{
+                        background-color: orange;
+                        color: white;
+                        max-width: 240px;
+                        width: 100%;
+                        border-radius: 20px;
+                        font-size: 18px;
+                        text-align: right;
+                        position: relative;
+                        float: right;
+                        height: 40px;
+
+                        @media only screen and (max-width: 420px){
+                            max-width: 200px;
+                            font-size: 15px;
+
+                            @media only screen and (max-width: 355px){
+                                max-width: 166px;
+                                font-size: 13px;
+                                padding-top: 7px;
+
+                                &::before{
+                                    font-size: 25px;
+                                    top: 5px;
+                                    left: 12px;
+                                }
+                            }
+                        }
+    
+                        &::before{
+                            content: "+";
+                            font-size: 37px;
+                            top: 0;
+                            position: absolute;
+                            left: 17px;
+
+                            @media only screen and (max-width: 355px){
+                                font-size: 25px;
+                                top: 5px;
+                                left: 12px;
+                            }
+                        }
+    
+                        &::after{
+                            content: " ";
+                            display: block;
+                            width: 23px;
+                            height: 20px;
+                            float: right;
+                        }
+                    }
+            }
+            }
+
+            p{
+                font-size: 25px;
+                font-weight: 100;
+                margin-top: 40px;
+                padding-bottom: 40px;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            span{
+                color: #00000078;
+                margin-top: 12px;
+                display: block;
+                float: left;
+
+                @media only screen and (max-width: 420px){
+                    font-size: 12px;
+                    margin-top: 14px;
+                }
+            }
+        }
+    }
+}

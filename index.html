@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Galerie Harfa</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/cis2uei.css" />
+    <link rel="stylesheet" href="css/libs.min.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">
+            <a href="#">
+              <img src="images/logo.png" alt="" />
+            </a>
+          </div>
+          <nav class="nav__menu">
+            <ul class="menu">
+              <li class="menu__list">
+                <a class="menu__link" href="#">Shopping</a>
+              </li>
+              <li class="menu__list">
+                <a class="menu__link" href="#">Foodcourt</a>
+              </li>
+              <li class="menu__list">
+                <a class="menu__link" href="#">Beauty</a>
+              </li>
+              <li class="menu__list">
+                <a class="menu__link" href="#">Relax</a>
+              </li>
+              <li class="menu__list">
+                <a class="menu__link" href="#">Kids</a>
+              </li>
+              <li class="menu__list">
+                <a class="menu__link" href="#">Parking</a>
+              </li>
+              <li class="menu__list">
+                <a class="menu__link" href="#">O<sub>2</sub></a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="navbar">
+            <div class="navbar__btn">
+              <svg  width="26.437"
+              height="30" class="burger-open" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #1d3354;
+                      fill-rule: evenodd;
+                    }
+                  </style>
+                </defs><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+             
+              <svg
+                class="burger-close"
+                xmlns="http://www.w3.org/2000/svg"
+                width="16.44"
+                height="16.44"
+                viewBox="0 0 16.44 16.44"
+              >
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: none;
+                      stroke: #1d3354;
+                      stroke-width: 2px;
+                      fill-rule: evenodd;
+                    }
+                  </style>
+                </defs>
+                <path
+                  class="cls-1"
+                  d="M1885,3359l15,15m0-15-15,15"
+                  transform="translate(-1884.28 -3358.28)"
+                />
+              </svg>
+            </div>
+            <div class="navbar__col">
+              <ul class="menu">
+                <li class="menu__list">
+                  <a class="menu__link active" href="#">Home</a>
+                </li>
+                <li class="menu__list">
+                  <a class="menu__link" href="#">Shopping</a>
+                </li>
+                <li class="menu__list">
+                  <a class="menu__link" href="#">Foodcourt</a>
+                </li>
+                <li class="menu__list">
+                  <a class="menu__link" href="#">Beauty</a>
+                </li>
+                <li class="menu__list">
+                  <a class="menu__link" href="#">Relax</a>
+                </li>
+                <li class="menu__list">
+                  <a class="menu__link" href="#">Kids&Family</a>
+                </li>
+                <li class="menu__list">
+                  <a class="menu__link" href="#">Parking</a>
+                </li>
+                <li class="menu__list">
+                  <a class="menu__link" href="#">O<sub>2</sub></a>
+                </li>
+              </ul>
+              <ul class="navbar__menu">
+                <li class="navbar__list">
+                  <a class="navbar__link" href="#">Shops</a>
+                </li>
+                <li class="navbar__list">
+                  <a class="navbar__link" href="#">Best Deals</a>
+                </li>
+                <li class="navbar__list">
+                  <a class="navbar__link" href="#">Services</a>
+                </li>
+                <li class="navbar__list">
+                  <a class="navbar__link" href="#">News</a>
+                </li>
+                <li class="navbar__list">
+                  <a class="navbar__link" href="#">Events</a>
+                </li>
+                <li class="navbar__list">
+                  <a class="navbar__link" href="#">About Us</a>
+                </li>
+                <li class="navbar__list">
+                  <a class="navbar__link" href="#">Career</a>
+                </li>
+                <li class="navbar__list">
+                  <a class="navbar__link" href="#">Lease</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main main-page">
+      <section class="top top-main">
+        <div class="container">
+          <div class="top__inner">
+            <div class="top__img">
+            
+              <div class="c-video">
+                <div id="player"></div>
+<div id="thumbnail_container" class="thumbnail_container">
+    <img class="thumbnail" id="thumbnail" />
+</div>
+<a class="start-video" style="background-image: url('images/decorate/play.png')"></a>
+    
+               
+              </div>
+              <div class="decoration decoration--bottom">
+                <span class="bg--pink"></span>
+                <span class="bg--orange"></span>
+                <span class="bg--green"></span>
+                <span class="bg--ocean"></span>
+                <span class="bg--yellow"></span>
+              </div>
+           
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="deal">
+        <div class="container">
+          <h2 class="shops__title title">Deals <span>of the</span> Week</h2>
+          <div class="best__items">
+            <div class="best__item best__item--big">
+              <div class="best__item-content">
+                <a href="#" class="best__row">
+              <img onerror="this.src='images/placeholder/1.png'" src="">
+              </a>
+                <div class="best__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+                <div class="best__hover">
+                  <div class="best__hover-logo">
+                    <img src="images/best/logo-1.png" alt="" />
+                  </div>
+                  <div class="best__hover-date">14 . 10. - 30. 11. 2020</div>
+                  <ul class="best__info">
+                    <li class="best__info-list">Regatta Great Outdoors.</li>
+                    <li class="best__info-list">Dámská a pánská buda HELFAnyní za 749,- Kč.</li>
+                    <li class="best__info-list">Těšíme se na Vaší návštěvu.</li>
+                  </ul>
+                  <div class="best__hover-descr">
+                    <span> Regatta </span>
+                    <span> -50% </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="best__item">
+              <div class="best__item-content">
+                <a href="#" class="best__row">
+                  <img onerror="this.src='images/placeholder/1.png'" src="images/best/item-3.jpg" alt="">
+                  </a>
+                <div class="sell sell--mini">už jen<span>8 dní</span></div>
+                <div class="best__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+                <div class="best__hover"></div>
+              </div>
+            </div>
+
+            <div class="best__item">
+              <div class="best__item-content">
+                <a href="#" class="best__row">
+                  <img onerror="this.src='images/placeholder/1.png'" src="images/best/item-3.jpg" alt="">
+                  </a>
+                <div class="best__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+                <div class="best__hover"></div>
+              </div>
+            </div>
+
+            <div class="best__item">
+              <div class="best__item-content">
+                <a href="#" class="best__row">
+                  <img onerror="this.src='images/placeholder/1.png'" src="images/best/item-5.jpg" alt="">
+                  </a>
+                <div class="best__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+                <div class="best__hover"></div>
+              </div>
+            </div>
+
+            <div class="best__item">
+              <div class="best__item-content">
+                <a href="#" class="best__row">
+                  <img onerror="this.src='images/placeholder/1.png'" src="images/best/item-6.jpg" alt="">
+                  </a>
+                <div class="best__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+                <div class="best__hover"></div>
+              </div>
+            </div>
+          
+
+          </div>
+          <a class="btn-link" href="./best-deal.html">Více</a>
+        </div>
+      </section>
+      <section class="food">
+        <div class="container">
+          <h2 class="shops__title title">Restaurants <span>and</span> Cafés</h2>
+          <div class="shops__inner">
+            <div class="shops__row">
+              <div class="shops__item">
+                <a
+                  href="#"
+                  class="shops__item-bg"
+                  style="background-image: url('images/shops/shop_1.jpg')"
+                ></a>
+                <div class="shops__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+                <div class="shops__content">
+                  <div class="shops__content-title">Cinnabon</div>
+                  <div class="shops__content-descr">Život má být sladký</div>
+                  <ul class="shops__categories">
+                    <li class="shops__categories-list"><a href="#">#cinnabon</a></li>
+                    <li class="shops__categories-list"><a href="#">#Sweetie&bakery</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="shops__row">
+              <div class="shops__item">
+                <a
+                  href="#"
+                  class="shops__item-bg"
+                  style="background-image: url('images/shops/shop_2.jpg')"
+                ></a>
+                <div class="shops__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+                <div class="sell sell-shops"><span>Daily</span><span>menu</span></div>
+                <div class="shops__content">
+                  <div class="shops__content-title">Culinary Aroma</div>
+                  <div class="shops__content-descr">Život má být sladký</div>
+                  <ul class="shops__categories">
+                    <li class="shops__categories-list"><a href="#">#restaurant</a></li>
+                    <li class="shops__categories-list"><a href="#">#culinaryaroma</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="shops__row">
+              <div class="shops__item">
+                <a
+                  href="#"
+                  class="shops__item-bg"
+                  style="background-image: url('images/shops/shop_3.jpg')"
+                ></a>
+                <div class="shops__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+                <a class="sell sell-shops" href="#"><span>Daily</span><span>menu</span></a>
+                <div class="shops__content">
+                  <div class="shops__content-title">Good Food</div>
+                  <div class="shops__content-descr">Život má být sladký</div>
+                  <ul class="shops__categories">
+                    <li class="shops__categories-list"><a href="#">#czech</a></li>
+                    <li class="shops__categories-list"><a href="#">#dailymenu</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="shops__row">
+              <div class="shops__item">
+                <a
+                  href="#"
+                  class="shops__item-bg"
+                  style="background-image: url('images/shops/shop_4.jpg')"
+                ></a>
+                <div class="shops__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+                <a class="sell sell-shops" href="#"><span>Daily</span> <span>menu</span></a>
+                <div class="shops__content">
+                  <div class="shops__content-title">Sklizeno</div>
+                  <div class="shops__content-descr">Život má být sladký</div>
+                  <ul class="shops__categories">
+                    <li class="shops__categories-list"><a href="#">#czech</a></li>
+                    <li class="shops__categories-list"><a href="#">#local</a></li>
+                    <li class="shops__categories-list"><a href="#">#raw</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="food__inner-scroll">
+            <div class="food__inner">
+              <a
+                class="food__link"
+                href="#"
+                style="background-image: url('images/foods/foods-1.jpg')"
+              ></a>
+              <a
+                class="food__link"
+                href="#"
+                style="background-image: url('images/foods/foods-2.jpg')"
+              ></a>
+              <a
+                class="food__link"
+                href="#"
+                style="background-image: url('images/foods/foods-3.jpg')"
+              ></a>
+              <a
+                class="food__link"
+                href="#"
+                style="background-image: url('images/foods/foods-4.jpg')"
+              ></a>
+              <a
+                class="food__link"
+                href="#"
+                style="background-image: url('images/foods/foods-5.jpg')"
+              ></a>
+            </div>
+          </div>
+         
+          <a class="btn-link" href="./shop-detail.html">Více</a>
+        </div>
+      </section>
+      <section class="kids">
+        <div class="container">
+          <h2 class="shops__title title">Kids <span>and</span> Family</h2>
+          <div class="shops__inner">
+            <div class="shops__row">
+              <div class="shops__item">
+                <a
+                  href="#"
+                  class="shops__item-bg"
+                  style="background-image: url('images/kids/kids-1.jpg')"
+                ></a>
+                <div class="shops__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+                <div class="shops__content">
+                  <div class="shops__content-title">DinoPark</div>
+                  <div class="shops__content-descr">Život má být sladký</div>
+                  <ul class="shops__categories">
+                    <li class="shops__categories-list"><a href="#">#DinoPark</a></li>
+                    <li class="shops__categories-list"><a href="#">#Family</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="shops__row">
+              <div class="shops__item">
+                <a
+                  href="#"
+                  class="shops__item-bg"
+                  style="background-image: url('images/kids/kids-2.jpg')"
+                ></a>
+                <div class="shops__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+
+                <div class="shops__content">
+                  <div class="shops__content-title">Monkey’s Gym</div>
+                  <div class="shops__content-descr">Život má být sladký</div>
+                  <ul class="shops__categories">
+                    <li class="shops__categories-list"><a href="#">#kids</a></li>
+                    <li class="shops__categories-list"><a href="#">#4yearsold+</a></li>
+                    <li class="shops__categories-list"><a href="#">#bdayparties</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="shops__row">
+              <div class="shops__item">
+                <a
+                  href="#"
+                  class="shops__item-bg"
+                  style="background-image: url('images/kids/kids-3.jpg')"
+                ></a>
+                <div class="shops__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+                <a class="sell sell-shops" href="#"
+                  >pin <br />
+                  to<span>calendar</span></a
+                >
+                <div class="shops__content">
+                  <div class="shops__content-title">Kid’s Tuesdays</div>
+                  <div class="shops__content-descr">Život má být sladký</div>
+                  <ul class="shops__categories">
+                    <li class="shops__categories-list"><a href="#">#babysitting</a></li>
+                    <li class="shops__categories-list"><a href="#">#recursive</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="shops__row">
+              <div class="shops__item">
+                <a
+                  href="#"
+                  class="shops__item-bg"
+                  style="background-image: url('images/kids/kids-4.jpg')"
+                ></a>
+                <div class="shops__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+
+                <div class="shops__content">
+                  <div class="shops__content-title">Cartoon Land</div>
+                  <div class="shops__content-descr">Život má být sladký</div>
+                  <ul class="shops__categories">
+                    <li class="shops__categories-list"><a href="#">#disney</a></li>
+                    <li class="shops__categories-list"><a href="#">#toys</a></li>
+                    <li class="shops__categories-list"><a href="#">#kids</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn-link" href="./events.html">Více</a>
+        </div>
+      </section>
+      <section class="campaigns">
+        <div class="container">
+          <h2 class="shops__title title">Campaigns <span>and</span> Banners</h2>
+          <div class="campaigns__inner">
+            <div
+              class="campaigns__row campaigns--1"
+              style="background-image: url('images/campaigns/campaigns-1.jpg')"
+            >
+              <a class="campaigns__item" href="#">
+                <div class="campaigns__content">
+                  <div class="campaigns__content-title">autumn<span>at harfa</span></div>
+                  <p class="campaigns__content-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                  </p>
+                  <a class="btn btn--pink" href="#">
+                    <div class="btn-call">CALL TO <span>ACTION</span></div>
+                  </a>
+                </div>
+              </a>
+            </div>
+            <div
+              class="campaigns__row campaigns--2"
+              style="background-image: url('images/campaigns/campaigns-2.jpg')"
+            >
+              <a class="campaigns__item" href="#">
+                <div class="campaigns__content">
+                  <div class="campaigns__content-title">Two rows<span>of happiness</span></div>
+                  <p class="campaigns__content-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
+                  </p>
+                  <a class="btn btn--ocean" href="#">
+                    <div class="btn-call">CALL TO <span>ACTION</span></div>
+                  </a>
+                </div>
+              </a>
+            </div>
+            <div
+              class="campaigns__row campaigns--3"
+              style="background-image: url('https://via.placeholder.com/581/316')"
+            >
+              <a class="campaigns__item" href="#"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container">
+          <h2 class="shops__title title">Services <span>at</span> Harfa</h2>
+          <div class="services__inner">
+
+            <div class="services__row services__row--big">
+             
+              <div class="services__item">
+                <a href="#" class="services__item-title">Harfa <span>Parking</span></a>
+                <div class="services__item-time">
+                  <div class="services__item-date">17. 11. 2020</div>
+                  <div class="services__item-hours">5 hours</div>
+                  <div class="services__item-price">Free</div>
+                </div>
+                <div class="services__menu">
+                  <div class="services__menu-title">Additional free time</div>
+                  <a href="#" class="services__menu-link">Visit a Gym</a>
+                  <a href="#" class="services__menu-link">purchase 500+ CZK</a>
+                  <a href="#" class="services__menu-link">Shopping & cinema</a>
+                </div>
+                <div class="services__item-btn">
+                  <a class="btn btn--orange" href="#">
+                    <div class="btn-call"><span>more</span> options</div>
+                  </a>
+                </div>
+              </div>
+            
+           
+          </div>
+            <div class="services__row">
+              <a class="services__link" href="#" style="background-image: url('images/services/1.jpg')">
+                <div class="services__item">
+                  <h6 class="services__item-title">professional <span>make-up</span></h6>
+                 
+                </div>
+              </a>
+              <div class="services__item-btn">
+                <a class="btn btn--orange" href="#">
+                  <div class="btn-call"><span>Book</span> now</div>
+                </a>
+              </div>
+            </div>
+
+
+            <div class="services__row">
+              <a class="services__link" href="#" style="background-image: url('images/services/2.jpg')">
+                <div class="services__item">
+                  <h6 class="services__item-title">Fashion <span>Stylist</span></h6>
+                 
+                </div>
+              </a>
+              <div class="services__item-btn">
+                <a class="btn btn--ocean" href="#">
+                  <div class="btn-call"><span>Book</span> now</div>
+                </a>
+              </div>
+            </div>
+
+           
+          
+
+
+            
+            <div class="services__row">
+              <a class="services__link" href="#" style="background-image: url('images/services/3.jpg')">
+                <div class="services__item">
+                  <h6 class="services__item-title">kid's <span>corner</span></h6>
+                </a>
+              </div>
+              </a>
+          </div>
+
+        <div class="services__row">
+          <a class="services__link" href="#" style="background-image: url('images/services/1.jpg')">
+            <div class="services__item">
+              <h6 class="services__item-title">professional <span>make-up</span></h6>
+            
+            </div>
+          </a>
+          <div class="services__item-btn">
+            <a class="btn btn--ocean" href="#">
+              <div class="btn-call"><span>Book</span> now</div>
+            </a>
+            </div>
+        </div>
+
+        </div>
+        <a class="btn-link" href="./services.html">Více</a>
+      </div>
+    </section>
+
+      <section class="news">
+        <div class="container">
+          <h2 class="shops__title title">News</h2>
+          <div class="shops__inner">
+            <div class="shops__row news--1">
+              <div class="shops__item">
+                <a
+                  href="#"
+                  class="shops__item-bg"
+                  style="background-image: url('images/news/1.jpg')"
+                ></a>
+                <div class="shops__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+                <div class="shops__content">
+                  <div class="shops__content-title">Prosíme</div>
+                  <div class="shops__content-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commo</div>
+                  <ul class="shops__categories">
+                    <li class="shops__categories-list"><a href="#">#Sweetie&bakery</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="shops__row news--2">
+              <div class="shops__item">
+                <a
+                  href="#"
+                  class="shops__item-bg"
+                  style="background-image: url('images/news/2.jpg')"
+                ></a>
+                <div class="shops__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+               
+                <div class="shops__content">
+                  <div class="shops__content-title">DinoPark</div>
+                  <div class="shops__content-descr">Život má být sladký</div>
+                  <ul class="shops__categories">
+                    <li class="shops__categories-list"><a href="#">#dinopark</a></li>
+                    <li class="shops__categories-list"><a href="#">#Family</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="shops__row news--3">
+              <div class="shops__item">
+                <a
+                  href="#"
+                  class="shops__item-bg"
+                  style="background-image: url('images/news/3.jpg')"
+                ></a>
+                <div class="shops__btn">
+                  <span class="btn-arrow icon-arrow-up-right2"></span>
+                  <span class="shop-close"><img src="images/svg/close.svg" alt="" /></span>
+                </div>
+             
+                <div class="shops__content">
+                  <div class="shops__content-title">Newly at Harfa</div>
+                  <div class="shops__content-descr">Život má být sladký</div>
+                  <ul class="shops__categories">
+                    <li class="shops__categories-list"><a href="#">#Cinnabon</a></li>
+                    <li class="shops__categories-list"><a href="#">#Pedro</a></li>
+                    <li class="shops__categories-list"><a href="#">#starbucks</a></li>
+                    <li class="shops__categories-list"><a href="#">#Czechswiss</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          <a class="btn-link" href="./services.html">Více</a>
+        </div>
+      </section>
+
+      <div class="grid-gallery">
+        <div class="container">
+           <h2 class="title">Instagram</h2>
+          <div class="grid">
+            <div class="grid-sizer"></div>
+            <a class="grid-item" href="images/test/bata.jpeg"><img src="images/test/bata.jpeg" alt=""></a>
+            <a class="grid-item grid-item--width2" href="images/test/bata1.jpeg"><img src="images/test/bata1.jpeg" alt=""></a>
+            <a class="grid-item" href="images/test/bata2.jpeg"><img src="images/test/bata2.jpeg" alt=""></a>
+            <a class="grid-item" href="images/test/ccc.jpeg"><img src="images/test/ccc.jpeg" alt=""></a>
+            <a  class="grid-item" href="images/test/ccc1.jpeg"><img src="images/test/ccc1.jpeg" alt="" /></a>
+            <a class="grid-item grid-item--width2" href="images/test/ccc2.jpeg"><img src="images/test/ccc2.jpeg" alt="" /></a>
+            <a class="grid-item" href="images/test/ccc3.jpeg"><img src="images/test/ccc3.jpeg" alt="" /></a>
+            <a class="grid-item" href="images/test/ecco1.jpeg"><img src="images/test/ecco1.jpeg" alt="" /></a>
+            <a class="grid-item" href="images/test/ecco2.png""><img src="images/test/ecco2.png" alt="" /></a>
+            <a class="grid-item" href="images/test/freddy1.jpeg"><img src="images/test/freddy1.jpeg" alt="" /></a>
+            <a class="grid-item" href="images/test/freddy2.jpeg"><img src="images/test/freddy2.jpeg" alt="" /></a>
+            <a class="grid-item" href="images/shop/shop-8.jpg"><img src="images/shop/shop-8.jpg" alt="" /></a>
+            <a class="grid-item" href="images/shop/shop-3.jpg"><img src="images/shop/shop-3.jpg" alt="" /></a>
+            <a class="grid-item" href="images/shop/shop-4.jpg"><img src="images/shop/shop-4.jpg" alt="" /></a>
+            <a class="grid-item" href="images/shop/shop-3.jpg"><img src="images/shop/shop-3.jpg" alt="" /></a>
+            <a class="grid-item" href="images/shop/shop-4.jpg"><img src="images/shop/shop-4.jpg" alt="" /></a>
+   
+          </div>
+        </div>
+      </div>
+
+
+      <section class="events">
+        <div class="container">
+          <h2 class="shops__title title">Events</h2>
+          <div class="events__inner">
+
+
+            <div class="events__item">
+              <div class="events__day">Today</div>
+              <a class="events__img" href="#" style="background-image: url('images/event/1.jpg');"></a>
+              <div class="events__info">
+                <a class="events__info-title" href="#">
+                  Pigy a Lily setkánína Harfě 2020
+                </a>
+                <ul class="events__categories">
+                  <li class="events__categorie"><a href="#">#pigy</a></li>
+                  <li class="events__categorie"><a href="#">#harfa</a></li>
+                </ul>
+              </div>
+            </div>
+
+
+            <div class="events__item">
+              <a class="events__img" href="#" style="background-image: url('images/event/2.jpg');"></a>
+              <div class="events__info">
+                <a class="events__info-title" href="#">
+                  Dětská taneční
+                </a>
+                <ul class="events__categories">
+                  <li class="events__categorie"><a href="#">#kids</a></li>
+                  <li class="events__categorie"><a href="#">#4yearsold+</a></li>
+                  <li class="events__categorie"><a href="#">#bdayparties</a></li>
+                </ul>
+              </div>
+            </div>
+
+
+            <div class="events__item">
+              <div class="events__day">Tomorrow</div>
+              <a class="events__img" href="#" style="background-image: url('images/event/3.jpg');"></a>
+              <div class="events__info">
+                <a class="events__info-title" href="#">
+                  Kid’s Tuesdays
+                </a>
+                <ul class="events__categories">
+                  <li class="events__categorie"><a href="#">#babysitting</a></li>
+                  <li class="events__categorie"><a href="#">#recursive</a></li>
+                </ul>
+              </div>
+            </div>
+
+
+            <div class="events__item">
+             <a class="events__img" href="#" style="background-image: url('images/event/4.jpg');"></a>
+             <div class="events__info">
+              <a class="events__info-title" href="#">
+                HC Sparta Praha
+              </a>
+              <ul class="events__categories">
+                <li class="events__categorie"><a href="#">#disney</a></li>
+                <li class="events__categorie"><a href="#">#toys</a></li>
+                <li class="events__categorie"><a href="#">#kids</a></li>
+              </ul>
+            </div>
+            </div>
+
+
+          </div>
+
+
+          <a class="btn-link" href="./events.html">Více</a>
+        </div>
+      </section>
+
+    
+
+   
+
+      <div id="map"></div>
+
+      <script type="text/javascript">
+
+      
+        var map;
+
+      
+        function initMap() {
+
+            map = new google.maps.Map(document.getElementById('map'), {
+              
+                center: {lat: 50.10384273543545,  lng: 14.49106584865871},
+                
+                zoom: 16
+            });
+            var marker = new google.maps.Marker({
+
+              position: {lat: 50.10384273543545,  lng: 14.49106584865871},
+
+              map: map,
+
+              title: 'Galerie Harfa',
+              icon: 'images/decorate/marker.png'
+          });
+   
+        }
+    </script>
+      <div class="social">
+        <div class="container">
+          <div class="social__menu">
+            <div class="social__box">
+              <a class="social__link icon-youtube-play" href="#"></a>
+              <a class="social__link icon-facebook-square" href="#"></a>
+              <a class="social__link icon-instagram" href="#"></a>
+            </div>
+            <div class="social__box">
+              <a class="social__link icon-twitter" href="#"></a>
+              <a class="social__link icon-apple" href="#"></a>
+              <a class="social__link icon-googleplay" href="#"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="information sup-footer">
+        <div class="container">
+          <div class="information__inner">
+            <div class="decoration">
+              <span class="bg--pink"></span>
+              <span class="bg--orange"></span>
+              <span class="bg--green"></span>
+              <span class="bg--ocean"></span>
+              <span class="bg--yellow"></span>
+            </div>
+            <div class="information__item information__mail">
+              <div class="information__title">Moje Harfa</div>
+              <ul class="information__menu">
+                <li class="information__list">Výběr toho nejlepšího ve vašem emailu</li>
+              </ul>
+              <form class="form__box">
+                <div class="information__form">
+                  <input placeholder="Zanechte nám svůj email" type="text" />
+                  <button class="icon-send" type="submit"></button>
+                </div>
+                <label class="information__checkbox">
+                  <input type="checkbox">
+                  Souhlasím se zpracováním osobních údajů
+                </label>
+                
+              </form>
+             
+            </div>
+            <div class="information__item">
+              <div class="information__title">Opening hours</div>
+              <ul class="information__menu">
+                <li class="information__list">Středa 7. 10. 2010</li>
+                <li class="information__list">Svátek má Justýna</li>
+                <li class="information__list">Otevřeno <span>10.00 – 22.00</span></li>
+              </ul>
+            </div>
+            <div class="information__item information__item--contact">
+              <div class="information__title">Contact</div>
+              <ul class="information__menu">
+                <li class="information__list">GALERIE HARFA</li>
+                <li class="information__list">Českomoravská 2420/15a</li>
+                <li class="information__list">190 00 Praha 9 – Libeň</li>
+                <li class="information__list">
+                  <a href="tel:420266055600">tel: +420 266 055 600</a>
+                </li>
+                <li class="information__list">
+                  <a href="mailto:info@galerieharfa.cz">e-mail: info@galerieharfa.cz</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="decoration">
+            <span class="bg--pink"></span>
+            <span class="bg--orange"></span>
+            <span class="bg--green"></span>
+            <span class="bg--ocean"></span>
+            <span class="bg--yellow"></span>
+          </div>
+          <div class="footer__row">
+            <div class="footer__col">
+              <h3 class="footer__title">Harfa for You</h3>
+              <ul class="footer__menu">
+                <li class="footer__list">
+                  <a class="footer__link" href="#">Shopping</a>
+                </li>
+                <li class="footer__list">
+                  <a class="footer__link" href="#">Foodcourt</a>
+                </li>
+                <li class="footer__list">
+                  <a class="footer__link" href="#">Beauty</a>
+                </li>
+                <li class="footer__list">
+                  <a class="footer__link" href="#">Relax</a>
+                </li>
+                <li class="footer__list">
+                  <a class="footer__link" href="#">Kids</a>
+                </li>
+                <li class="footer__list">
+                  <a class="footer__link" href="#">Parking</a>
+                </li>
+                <li class="footer__list">
+                  <a class="footer__link" href="#">O2</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <h3 class="footer__title">Pages</h3>
+              <ul class="footer__menu">
+                <li class="footer__list">
+                  <a class="footer__link" href="#">Shops</a>
+                </li>
+                <li class="footer__list">
+                  <a class="footer__link" href="#">Best Deals</a>
+                </li>
+                <li class="footer__list">
+                  <a class="footer__link" href="#">Services</a>
+                </li>
+                <li class="footer__list">
+                  <a class="footer__link" href="#">News</a>
+                </li>
+                <li class="footer__list">
+                  <a class="footer__link" href="#">Events</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <h3 class="footer__title">Harfa Gallery</h3>
+              <ul class="footer__menu">
+                <li class="footer__list">
+                  <a class="footer__link" href="#">About Us</a>
+                </li>
+                <li class="footer__list">
+                  <a class="footer__link" href="#">Career</a>
+                </li>
+                <li class="footer__list">
+                  <a class="footer__link" href="#">Cowork / Lease</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__col">
+              <h3 class="footer__title">Navigation</h3>
+              <ul class="footer__menu">
+                <li class="footer__list">
+                  <a class="footer__link" href="#">Directions</a>
+                </li>
+                <li class="footer__list">
+                  <a class="footer__link" href="#">Map</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__copy">© 2020 Galerie Harfa</div>
+          
+        </div>
+       
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQECbsQhR5FvtJUoRstpiu7ZkEMnJh9jg&callback=initMap&libraries=&v=weekly"
+    async
+  ></script>
+  </body>
+</html>
