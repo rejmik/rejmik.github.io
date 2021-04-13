@@ -840,6 +840,10 @@ body {
         padding-top:150px!important;
         font-size:4.5rem!important;
         line-height: 4.5rem!important;
+        padding-left:20px!important;
+    }
+    .main-page .campaigns--1 .campaigns__content-text{
+        padding-left:20px!important;
     }
     .pokus{
         height:575px!important;
@@ -863,6 +867,12 @@ body {
     .information__list, .information__list a{
         font-size:1.5rem!important;
         line-height: 2.5rem!important;
+    }
+    .shops__item:hover .shops__content-descr{
+        padding-bottom: 10px!important;
+    }
+    .main-page .campaigns--2 .campaigns__content, .main-page .campaigns--3 .campaigns__content{
+        left:20px!important;
     }
 }
 @media (max-width: 1200px) {
@@ -2184,7 +2194,7 @@ body {
 .main-page .campaigns__content {
     position: absolute;
     left: 80px;
-    top: 105px;
+    top: 200px;
 }
 .main-page .campaigns__content-title {
     line-height: 1.2;
@@ -2213,8 +2223,8 @@ body {
 }
 .main-page .campaigns--1 .campaigns__content-title {
     font-size: 5.5rem;
-    padding-left: 87px;
-    padding-top: 130px;
+    padding-left: 20px;
+    padding-top: 60px;
     line-height: 5.5rem;
     margin-bottom: 29px;
     color:#ffffff;
@@ -2224,7 +2234,7 @@ body {
     line-height: 65px;
 }
 .main-page .campaigns--1 .campaigns__content-text {
-    padding-left: 90px;
+    padding-left: 20px;
     font-size: 0;
     line-height: 0;
     font-weight: 300;
