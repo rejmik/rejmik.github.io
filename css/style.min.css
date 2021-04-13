@@ -393,6 +393,18 @@ body {
 .btn--orange.btn::before {
     background-color: #ec673b;
 }
+.btn--green.btn:hover::before {
+    border: 2px solid #62b770;
+}
+.btn--green.btn:hover .btn-call {
+    color: #62b770;
+}
+.btn--green.btn::after {
+    border: 2px solid #62b770;
+}
+.btn--green.btn::before {
+    background-color: #62b770;
+}
 .btn--pink.btn:hover::before {
     border: 2px solid #d83550;
 }
@@ -838,6 +850,19 @@ body {
         height: 278px!important;
         background-size: cover!important;
         background-position:center!important;
+    }
+    .information__title {
+        font-size: 2.5rem!important;
+    }
+    .information__item.information__mail{
+        width:300px!important;  
+    }
+    .information__form input{
+        width: 250px!important;
+    }
+    .information__list, .information__list a{
+        font-size:1.5rem!important;
+        line-height: 2.5rem!important;
     }
 }
 @media (max-width: 1200px) {
@@ -1571,7 +1596,7 @@ body {
 .information__form input {
     background-color: #eeeeee;
     border: none;
-    width: 380px;
+    width: 320px;
     outline: none;
     padding: 0 15px;
     height: 100%;
@@ -1638,6 +1663,7 @@ body {
 }
 .sup-footer.information .information__item.information__mail .information__list {
     margin-bottom: 40px;
+    padding-right: 40px;
 }
 .sup-footer.information .information__inner {
     margin-top: 80px;
@@ -1648,7 +1674,7 @@ body {
     padding-bottom: 135px;
 }
 .information__item.information__mail {
-    width: 454px;
+    width: 460px;
 }
 .information__item--contact {
     margin-left: 115px;
@@ -2188,7 +2214,7 @@ body {
 .main-page .campaigns--1 .campaigns__content-title {
     font-size: 5.5rem;
     padding-left: 87px;
-    padding-top: 210px;
+    padding-top: 130px;
     line-height: 5.5rem;
     margin-bottom: 29px;
     color:#ffffff;
@@ -2512,7 +2538,7 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     left: 25px;
-    top: 50px;
+    bottom: 50px;
 }
 .main-page .services__item-title span {
     font-size: 2.625rem;
@@ -2529,8 +2555,8 @@ body {
     grid-row-start: span 2;
 }
 .main-page .services__row--big.services__row .services__item-title {
-    top: 33px;
-    left: 39px;
+    top: 50px;
+    left: 25px;
 }
 .main-page .services__item-time {
     line-height: 30px;
@@ -2762,7 +2788,7 @@ body {
     z-index: 4;
 }
 .best__info {
-    max-width: 200px;
+    max-width: 300px;
     width: 100%;
 }
 .best__hover {
