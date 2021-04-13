@@ -32,6 +32,7 @@ onYouTubeIframeAPIReady = function () {
       autoplay: 0,
       rel: 0,
       showinfo: 0,
+      controls: 0,
     },
     events: {
       onStateChange: onPlayerStateChange,
