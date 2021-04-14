@@ -163,13 +163,13 @@ body {
     font-size: 1.575rem;
 }
 .btn-link {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
     line-height: 1.2;
     font-weight: 700;
     text-transform: uppercase;
     color: #fefefe;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     position: relative;
     opacity: 0.9;
     border-radius: 50%;
@@ -296,7 +296,7 @@ body {
 }
 .social__link {
     margin-left: 40px;
-    font-size: 2.25rem;
+    font-size: 1.75rem;
     color: #575656;
     border-radius: 50%;
     width: 100px;
@@ -608,7 +608,8 @@ body {
 .menu__link {
     color: #404040;
     font-weight: 400;
-    font-size: 1.625rem;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
 }
 .menu__link:hover {
     text-decoration: underline;
@@ -856,7 +857,7 @@ body {
         background-position:center!important;
     }
     .information__title {
-        font-size: 2.5rem!important;
+        font-size: 2.0rem!important;
     }
     .information__item.information__mail{
         width:300px!important;  
@@ -865,8 +866,8 @@ body {
         width: 250px!important;
     }
     .information__list, .information__list a{
-        font-size:1.5rem!important;
-        line-height: 2.5rem!important;
+        font-size:1.1rem!important;
+        line-height: 2.0rem!important;
     }
     .shops__item:hover .shops__content-descr{
         padding-bottom: 10px!important;
@@ -1568,12 +1569,12 @@ body {
     font-weight: 300;
 }
 .information__list span {
-    font-size: 2.875rem;
+    font-size: 2.0rem;
     font-weight: 700;
     display: block;
 }
 .information__checkbox {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     line-height: 30px;
 }
 .information__checkbox input {
@@ -1592,10 +1593,10 @@ body {
     color: #fff;
     display: inline-block;
     width: 60px;
-    height: 100%;
+    height: 80%;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    font-size: 1.625rem;
+    font-size: 1.25rem;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
@@ -1609,7 +1610,7 @@ body {
     width: 320px;
     outline: none;
     padding: 0 15px;
-    height: 100%;
+    height: 80%;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -2647,7 +2648,7 @@ body {
     margin-top: 20px;
 }
 .main-page .shops__title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding-left: 0;
     margin-bottom: 40px;
 }
@@ -2709,7 +2710,7 @@ body {
     font-size: 2rem;
 }
 .best__item--big .best__hover .best__info-list {
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.5;
 }
 .best__btn {
