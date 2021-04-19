@@ -52,8 +52,8 @@ p {
     margin: 0;
 }
 p {
-    font-size: 1.5rem;
-    line-height: 1.7;
+    font-size: 1rem;
+    line-height: 115%;
     font-weight: 400;
     margin-bottom: 40px;
 }
@@ -72,10 +72,10 @@ body {
 }
 .best__top h1,
 .best__top h2 {
-    font-size: 3.75rem;
+    font-size: 2.5rem;
     font-weight: 400;
     margin-bottom: 55px;
-    line-height: 60px;
+    line-height: 115%;
 }
 .best__top h1 span,
 .best__top h2 span {
@@ -89,7 +89,7 @@ body {
 .container {
     padding: 0 10%;
     margin: 0 auto;
-    max-width: 1920px;
+    max-width: 1550px;
     width: 100%;
 }
 .container-small {
@@ -102,7 +102,7 @@ body {
     width: 80px;
     height: 80px;
     font-size: 1.125rem;
-    line-height: 23px;
+    line-height: 115%;
     font-weight: 800;
     text-transform: uppercase;
     color: #404040;
@@ -117,7 +117,7 @@ body {
     top: 60px;
 }
 .sell--big.sell .sell__number {
-    line-height: 32px;
+    line-height: 115%;
     margin-top: 31px;
 }
 .sell {
@@ -128,7 +128,7 @@ body {
     width: 100px;
     height: 100px;
     font-size: 1.56rem;
-    line-height: 22px;
+    line-height: 115%;
     left: 20px;
     top: 20px;
     position: absolute;
@@ -154,7 +154,7 @@ body {
 }
 .sell__descr {
     font-size: 1.47rem;
-    line-height: 26px;
+    line-height: 115%;
 }
 .sell__number {
     font-size: 6.7rem;
@@ -163,13 +163,13 @@ body {
     font-size: 1.575rem;
 }
 .btn-link {
-    font-size: 1.25rem;
-    line-height: 1.2;
+    font-size: 1.0rem;
+    line-height: 115%;
     font-weight: 700;
     text-transform: uppercase;
     color: #fefefe;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     position: relative;
     opacity: 0.9;
     border-radius: 50%;
@@ -299,8 +299,8 @@ body {
     font-size: 1.75rem;
     color: #575656;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
     display: -webkit-box;
@@ -498,7 +498,7 @@ body {
     position: relative;
     text-transform: uppercase;
     font-size: 1.4375rem;
-    line-height: 30px;
+    line-height: 115%;
     font-weight: 500;
     color: #ffffff;
     z-index: 999;
@@ -522,7 +522,7 @@ body {
 .typography li,
 .typography a {
     font-size: 1.5rem;
-    line-height: 32px;
+    line-height: 115%;
     list-style: initial;
 }
 .typography li a:hover,
@@ -608,8 +608,8 @@ body {
 .menu__link {
     color: #404040;
     font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 1.25rem;
+    font-size: 1rem;
+    line-height:115%;
 }
 .menu__link:hover {
     text-decoration: underline;
@@ -627,8 +627,8 @@ body {
     transition: all 0.2s;
 }
 .navbar .navbar__link {
-    font-size: 1.625rem;
-    line-height: 40px;
+    font-size: 1.1rem;
+    line-height: 115%;
     font-weight: 200;
     color: #1d3354;
 }
@@ -641,8 +641,8 @@ body {
 }
 .navbar .menu__link {
     font-weight: 200;
-    font-size: 2.5rem;
-    line-height: 55px;
+    font-size: 1.25rem;
+    line-height: 115%;
     color: #1d3354;
 }
 .navbar .menu__list + .menu__list {
@@ -661,6 +661,9 @@ body {
     z-index: 9999;
     top: 20px;
     cursor: pointer;
+}
+.navbar__btn svg {
+    width:20px;
 }
 .navbar.change {
     right: 0;
@@ -795,8 +798,8 @@ body {
         width: 450px;
     }
     .navbar .menu__link {
-        font-size: 2.125rem;
-        line-height: 48px;
+        font-size: 1.25rem;
+        line-height: 115%;
     }
     .navbar .navbar__menu {
         padding-top: 0;
@@ -804,7 +807,7 @@ body {
 }
 @media (max-width: 1600px) {
     .navbar .menu__link {
-        font-size: 2rem;
+        font-size: 1.25rem;
     }
     .navbar .navbar__menu {
         margin-top: 30px;
@@ -814,18 +817,21 @@ body {
     }
 }
 @media (max-width: 1440px) {
+    h2 {
+        font-size:2.0rem!important;
+    }
     .navbar .navbar__link {
-        font-size: 1.375rem;
-        line-height: 36px;
+        font-size: 1.1rem;
+        line-height: 115%;
     }
     .navbar__col .menu {
         margin-top: 60px;
     }
     .navbar .menu__link {
-        font-size: 1.875rem;
+        font-size: 1.25rem;
     }
     .navbar .menu__link {
-        line-height: 42px;
+        line-height: 115%;
     }
     .menu__list + .menu__list {
         margin-left: 30px;
@@ -840,7 +846,7 @@ body {
     .main-page .campaigns--1 .campaigns__content-title {
         padding-top:150px!important;
         font-size:4.5rem!important;
-        line-height: 4.5rem!important;
+        line-height: 115%!important;
         padding-left:20px!important;
     }
     .main-page .campaigns--1 .campaigns__content-text{
@@ -857,17 +863,17 @@ body {
         background-position:center!important;
     }
     .information__title {
-        font-size: 2.0rem!important;
+        font-size: 1.75rem!important;
     }
     .information__item.information__mail{
-        width:300px!important;  
+        width:230px!important;  
     }
     .information__form input{
         width: 250px!important;
     }
     .information__list, .information__list a{
         font-size:1.1rem!important;
-        line-height: 2.0rem!important;
+        line-height: 150%!important;
     }
     .shops__item:hover .shops__content-descr{
         padding-bottom: 10px!important;
@@ -962,6 +968,9 @@ body {
         top: 0px;
         right: 0;
     }
+    h2 {
+    font-size:1.5rem!important;
+    }
     .navbar__col::after,
     .navbar__col::before {
         height: 100vh;
@@ -981,8 +990,8 @@ body {
         background-color: #fff;
     }
     .navbar .menu__link {
-        font-size: 1.625rem;
-        line-height: 36px;
+        font-size: 1.25rem;
+        line-height: 115%;
     }
     .navbar__col .menu,
     .navbar__col .navbar__menu {
@@ -1310,7 +1319,7 @@ body {
     padding-right: 10px;
     font-size: 12px;
     font-weight: 700;
-    line-height: 15px;
+    line-height: 115%;
 }
 #calendar-esports .eventContent p:first-of-type {
     margin-top: 5px;
@@ -1345,7 +1354,7 @@ body {
     margin-bottom: 30px;
     padding-left: 20px;
     font-size: 3rem;
-    line-height: 60px;
+    line-height: 115%;
     font-weight: 600;
 }
 .shops__title span {
@@ -1453,8 +1462,8 @@ body {
     margin-bottom: 40px;
 }
 .shop-detail__top h2 {
-    font-size: 3.75rem;
-    line-height: 60px;
+    font-size: 2.5rem;
+    line-height: 115%;
 }
 .shop-detail__logo {
     max-width: 197px;
@@ -1474,7 +1483,7 @@ body {
 }
 .shop-detail__item a {
     font-size: 0.95rem;
-    line-height: 1.2;
+    line-height: 115%;
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
@@ -1526,13 +1535,13 @@ body {
 .typography h3,
 .shop-detail__box h3 {
     font-size: 1.5rem;
-    line-height: 34px;
+    line-height: 115%;
     margin-bottom: 5px;
 }
 .typography p,
 .shop-detail__box p {
     font-size: 1.5rem;
-    line-height: 34px;
+    line-height: 115%;
     font-weight: 400;
     margin-bottom: 40px;
 }
@@ -1542,7 +1551,7 @@ body {
 .information__inner {
     position: relative;
     margin-top: 105px;
-    padding: 90px 80px;
+    padding: 60px 80px;
     -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
@@ -1554,8 +1563,8 @@ body {
     justify-content: space-between;
 }
 .information__title {
-    font-size: 3.125rem;
-    line-height: 30px;
+    font-size: 1.75rem;
+    line-height: 115%;
     font-weight: 200;
     margin-bottom: 70px;
 }
@@ -1565,17 +1574,17 @@ body {
 .information__list,
 .information__list a {
     font-size: 1.625rem;
-    line-height: 50px;
+    line-height: 115%;
     font-weight: 300;
 }
 .information__list span {
-    font-size: 2.0rem;
+    font-size: 1.75rem;
     font-weight: 700;
     display: block;
 }
 .information__checkbox {
     font-size: 1.0rem;
-    line-height: 30px;
+    line-height: 115%;
 }
 .information__checkbox input {
     margin-right: 5px;
@@ -1592,11 +1601,11 @@ body {
     background-color: #d83550;
     color: #fff;
     display: inline-block;
-    width: 60px;
-    height: 80%;
+    width: 40px;
+    height: 60%;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    font-size: 1.25rem;
+    font-size: 1.0rem;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
@@ -1607,37 +1616,37 @@ body {
 .information__form input {
     background-color: #eeeeee;
     border: none;
-    width: 320px;
+    width: 250px;
     outline: none;
     padding: 0 15px;
-    height: 80%;
+    height: 60%;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
 .information__form input::-webkit-input-placeholder {
     color: #575656;
     font-family: "Allotrope", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 .information__form input::-moz-placeholder {
     color: #575656;
     font-family: "Allotrope", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 .information__form input:-ms-input-placeholder {
     color: #575656;
     font-family: "Allotrope", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 .information__form input::-ms-input-placeholder {
     color: #575656;
     font-family: "Allotrope", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 .information__form input::placeholder {
     color: #575656;
     font-family: "Allotrope", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 .information__form input:focus::-webkit-input-placeholder {
     color: transparent;
@@ -1677,12 +1686,12 @@ body {
     padding-right: 40px;
 }
 .sup-footer.information .information__inner {
-    margin-top: 80px;
+    margin-top: 60px;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding-right: 200px;
-    padding-bottom: 135px;
+    padding-bottom: 60px;
 }
 .information__item.information__mail {
     width: 460px;
@@ -1777,8 +1786,11 @@ body {
 }
 .shops__content-title {
     margin-bottom: -12px;
-    font-size: 1.875rem;
+    font-size: 1.75rem;
     margin-left: 5px;
+}
+.big__title {
+    font-size: 3.5rem!important;    
 }
 .shops__content-descr {
     padding-bottom: 25px;
@@ -1869,7 +1881,7 @@ body {
     -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
     position: relative;
-    padding: 93px 60px 40px 60px;
+    padding: 60px 60px 40px 60px;
 }
 .footer__row {
     -webkit-box-pack: justify;
@@ -1882,23 +1894,24 @@ body {
     display: flex;
 }
 .footer__title {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     font-weight: 300;
-    line-height: 30px;
+    line-height: 115%;
     margin-bottom: 56px;
 }
-.footer__list {
+/*.footer__list {
     margin-bottom: 30px;
-}
+}*/
 .footer__link,
 .footer__list {
     font-weight: 300;
-    font-size: 1.625rem;
+    font-size: 1.0rem;
+    line-height: 150%;
 }
 .footer__link {
     padding-left: 40px;
     position: relative;
-    font-size: 1.625rem;
+    font-size: 1.0rem;
 }
 .footer__link:hover {
     text-decoration: underline;
@@ -1907,7 +1920,7 @@ body {
     content: "";
     position: absolute;
     left: 0;
-    top: 10px;
+    top: 5px;
     width: 10px;
     height: 10px;
     background-image: -o-linear-gradient(315deg, #1d3354 0%, #da3747 100%);
@@ -1916,8 +1929,8 @@ body {
     border-radius: 50%;
 }
 .footer__copy {
-    margin: 100px 40px 0 auto;
-    font-size: 1.25rem;
+    margin: 50px 40px 0 auto;
+    font-size: 1.0rem;
     font-weight: 700;
     text-align: end;
 }
@@ -2143,12 +2156,12 @@ body {
 }
 .main-page .kids .sell {
     font-size: 1.625rem;
-    line-height: 20px;
+    line-height: 115%;
     text-align: center;
 }
 .main-page .kids .sell span {
     font-size: 0.9375rem;
-    line-height: 14px;
+    line-height: 115%;
 }
 .main-page .kids .shops__inner {
     margin-bottom: 50px;
@@ -2190,7 +2203,7 @@ body {
 }
 .main-page .campaigns__row:hover .campaigns__content-text {
     font-size: 1.25rem;
-    line-height: 30px;
+    line-height: 115%;
 }
 .main-page .campaigns__content {
     position: absolute;
@@ -2198,7 +2211,7 @@ body {
     top: 200px;
 }
 .main-page .campaigns__content-title {
-    line-height: 1.2;
+    line-height: 115%;
     font-weight: 800;
     text-transform: uppercase;
     position: relative;
@@ -2226,13 +2239,13 @@ body {
     font-size: 5.5rem;
     padding-left: 20px;
     padding-top: 60px;
-    line-height: 5.5rem;
+    line-height: 115%;
     margin-bottom: 29px;
     color:#ffffff;
 }
 .main-page .campaigns--1 .campaigns__content-title span {
     font-size: 4.7rem;
-    line-height: 65px;
+    line-height: 115%;
 }
 .main-page .campaigns--1 .campaigns__content-text {
     padding-left: 20px;
@@ -2257,12 +2270,12 @@ body {
 .main-page .campaigns--2:hover .campaigns__content-text,
 .main-page .campaigns--3:hover .campaigns__content-text {
     font-size: 0.9375rem;
-    line-height: 20px;
+    line-height: 115%;
 }
 .main-page .campaigns--2 .btn-call,
 .main-page .campaigns--3 .btn-call {
     font-size: 0.91rem;
-    line-height: 16px;
+    line-height: 115%;
     font-weight: 500;
 }
 .main-page .campaigns--2 .btn,
@@ -2304,7 +2317,7 @@ body {
 .main-page .campaigns--2 .campaigns__content-title span,
 .main-page .campaigns--3 .campaigns__content-title span {
     font-size: 1.6rem;
-    line-height: 10px;
+    line-height: 115%;
 }
 .main-page .campaigns--2 {
     grid-area: campaigns--2;
@@ -2360,7 +2373,7 @@ body {
     top: 0;
     left: 30px;
     font-size: 1.25rem;
-    line-height: 30px;
+    line-height: 115%;
     font-weight: 700;
     text-decoration: line-through;
 }
@@ -2370,7 +2383,7 @@ body {
 }
 .main-page .events__info-title {
     font-size: 1.875rem;
-    line-height: 1.2;
+    line-height: 115%;
     font-weight: 400;
     margin-bottom: 30px;
     max-width: 275px;
@@ -2383,7 +2396,7 @@ body {
 .main-page .events__categorie a {
     padding: 4px 11px 3px 8px;
     font-size: 0.75rem;
-    line-height: 1.2;
+    line-height: 115%;
     font-weight: 700;
     border: 2px solid transparent;
     text-transform: uppercase;
@@ -2544,7 +2557,7 @@ body {
 .main-page .services__item-title {
     position: absolute;
     font-size: 1.625rem;
-    line-height: 30px;
+    line-height: 115%;
     font-weight: 800;
     text-transform: uppercase;
     color: #ffffff;
@@ -2552,8 +2565,8 @@ body {
     bottom: 50px;
 }
 .main-page .services__item-title span {
-    font-size: 2.625rem;
-    line-height: 40px;
+    font-size: 1.75rem;
+    line-height: 115%;
     display: block;
 }
 .main-page .services__row--big {
@@ -2566,14 +2579,14 @@ body {
     grid-row-start: span 2;
 }
 .main-page .services__row--big.services__row .services__item-title {
-    top: 50px;
+    bottom: 150px;
     left: 25px;
 }
 .main-page .services__item-time {
-    line-height: 30px;
+    line-height: 115%;
     color: #1d3354;
     font-size: 1.625rem;
-    line-height: 30px;
+    line-height: 115%;
     font-weight: 800;
     margin-top: 142px;
     margin-bottom: 89px;
@@ -2611,7 +2624,7 @@ body {
 .main-page .services__menu-title {
     font-weight: 800;
     font-size: 1.625rem;
-    line-height: 30px;
+    line-height: 115%;
     margin-bottom: 25px;
     color: #fff;
 }
@@ -2630,7 +2643,7 @@ body {
     font-size: 1.25rem;
     color: #fff;
     font-weight: 800;
-    line-height: 30px;
+    line-height: 115%;
     border: 2px solid #fff;
     border-radius: 5px;
     -webkit-transition: all 0.4s;
@@ -2711,7 +2724,7 @@ body {
 }
 .best__item--big .best__hover .best__info-list {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 115%;
 }
 .best__btn {
     cursor: pointer;
@@ -2852,7 +2865,7 @@ body {
     width: 100%;
 }
 .best__hover .best__info-list {
-    line-height: 15px;
+    line-height: 115%;
     font-size: 0.9375rem;
     font-weight: 300;
     margin-bottom: 20px;
@@ -2891,9 +2904,9 @@ body {
 }
 .main-page.best-deal .best__top h1,
 .main-page.best-deal .best__top h2 {
-    font-size: 3.75rem;
+    font-size: 2.5rem;
     font-weight: 400;
-    line-height: 66px;
+    line-height: 115%;
     margin-bottom: 40px;
 }
 .main-page.best-deal .best__item-content::after {
@@ -2919,7 +2932,7 @@ body {
 .main-page.best-deal .best-deal__subtitle {
     text-align: center;
     font-size: 2.5rem;
-    line-height: 30px;
+    line-height: 115%;
     font-weight: 400;
     margin-bottom: 57px;
 }
@@ -3128,7 +3141,7 @@ body {
 }
 .terasy__subtitle {
     font-size: 2.5rem;
-    line-height: 60px;
+    line-height: 115%;
     font-weight: 300;
     margin-bottom: 35px;
 }
@@ -3241,7 +3254,7 @@ img.thumbnail {
     right: 40px;
     left: auto;
     font-size: 1.5rem;
-    line-height: 24px;
+    line-height: 115%;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -3276,7 +3289,7 @@ img.thumbnail {
 }
 .terasy-page .top-main__subtitle {
     font-size: 1.875rem;
-    line-height: 36px;
+    line-height: 115%;
     letter-spacing: 1.1px;
 }
 .terasy-page .top-main__content {
@@ -3327,8 +3340,8 @@ img.thumbnail {
     border: 2px solid #ec673b;
 }
 .terasy__inner .shops__content-title {
-    font-size: 2.5rem;
-    line-height: 1.2;
+    font-size: 1.75rem;
+    line-height: 115%;
     font-weight: 700;
 }
 .terasy__inner .shops__content-title span {
@@ -3401,7 +3414,7 @@ img.thumbnail {
     font-weight: 300;
     max-width: 800px;
     margin: 0 auto;
-    line-height: 66px;
+    line-height: 115%;
     margin-bottom: 65px;
 }
 .main.career-detail .shop-detail p {
@@ -3410,10 +3423,10 @@ img.thumbnail {
     padding-left: 0;
 }
 .main.career-detail .shop-detail h2 {
-    font-size: 3.75rem;
+    font-size: 2.5rem;
     font-weight: 300;
     margin: 0 auto;
-    line-height: 66px;
+    line-height: 115%;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -3467,7 +3480,7 @@ img.thumbnail {
 }
 .career__list-title {
     font-size: 2rem;
-    line-height: 32px;
+    line-height: 115%;
     font-weight: 700;
     margin-bottom: 30px;
 }
@@ -3478,7 +3491,7 @@ img.thumbnail {
 .career__list li {
     list-style: initial;
     font-size: 1.5rem;
-    line-height: 32px;
+    line-height: 115%;
 }
 .career__title {
     font-size: 3rem;
@@ -3548,7 +3561,7 @@ img.thumbnail {
     margin-top: 30px;
     font-weight: 300;
     font-size: 1.5rem;
-    line-height: 34px;
+    line-height: 115%;
     max-width: 250px;
 }
 .parking-page .maps {
@@ -3717,7 +3730,7 @@ img.thumbnail {
 }
 .parking__text {
     font-size: 1.625rem;
-    line-height: 34px;
+    line-height: 115%;
 }
 .parking__form {
     display: -webkit-box;
@@ -3877,8 +3890,8 @@ img.thumbnail {
 }
 .top.event-detail h1,
 .top.event-detail h2 {
-    font-size: 3.75rem;
-    line-height: 66px;
+    font-size: 2.5rem;
+    line-height: 115%;
     margin-bottom: 40px;
 }
 .top.event-detail h1 span,
@@ -3921,9 +3934,9 @@ img.thumbnail {
 }
 .information__item .social__box .social__link {
     margin-left: 20px;
-    height: 60px;
-    width: 60px;
-    font-size: 1.625rem;
+    height: 80px;
+    width: 80px;
+    font-size: 1.5rem;
 }
 .information__item .social__box .social__link::after {
     height: 80px;
@@ -4283,7 +4296,7 @@ img.thumbnail {
     }
     .top-main__title {
         font-size: 3.75rem;
-        line-height: 68px;
+        line-height: 115%;
         width: 670px;
     }
     .top-main__content::before {
@@ -4298,7 +4311,7 @@ img.thumbnail {
         align-items: start;
     }
     .information__inner {
-        padding: 90px 40px;
+        padding: 60px 40px;
     }
     .sell--big.sell {
         width: 150px;
@@ -4381,8 +4394,9 @@ img.thumbnail {
     .best__item--big {
         height: 760px;
     }
+/*container by měl fungovat tak, že do 1919 px je 10% + max-width:1550px, od 1920 px už pouze widht 1550 px bez 10%*/
     .container {
-        padding: 0 5%;
+        padding: 0 10%;
     }
     #player {
         height: 650px;
@@ -4403,7 +4417,7 @@ img.thumbnail {
     }
     .top__box-item {
         font-size: 1.68rem;
-        line-height: 30px;
+        line-height: 115%;
     }
     .group__item-link {
         min-height: 363px;
@@ -4515,7 +4529,7 @@ img.thumbnail {
     .best__top h1,
     .best__top h2,
     .main.career-detail .shop-detail h2 {
-        font-size: 3.125rem;
+        font-size: 2.5rem;
         margin-bottom: 30px;
     }
     .event-detail__inner .shops__row {
@@ -4555,7 +4569,7 @@ img.thumbnail {
     .main-page .top-main__title {
         font-size: 2.25rem;
         width: 400px;
-        line-height: 40px;
+        line-height: 115%;
     }
     .main-page .top-main__subtitle {
         font-size: 1.375rem;
@@ -4781,7 +4795,7 @@ img.thumbnail {
         margin-left: 30px;
     }
     .sup-footer.information .information__inner {
-        margin-top: 50px;
+        margin-top: 60px;
     }
     .social__menu {
         -ms-flex-wrap: wrap;
@@ -4848,12 +4862,12 @@ img.thumbnail {
     }
     .main-page .top-main__title {
         font-size: 1.56rem;
-        line-height: 25px;
+        line-height: 115%;
         width: 256px;
     }
     .main-page .top-main__subtitle {
         font-size: 0.75rem;
-        line-height: 11px;
+        line-height: 115%;
         margin-left: 8px;
         margin-bottom: 11px;
     }
@@ -5208,12 +5222,12 @@ img.thumbnail {
         height: 594px;
     }
     .shops__title {
-        line-height: 40px;
+        line-height: 115%;
         margin-bottom: 20px;
     }
     .shop-detail__top h2 {
-        font-size: 3.125rem;
-        line-height: 50px;
+        font-size: 2.5rem;
+        line-height: 115%;
     }
     .best,
     .best__top {
@@ -5222,7 +5236,7 @@ img.thumbnail {
     .group__form-filter {
         display: block;
         font-size: 2.5rem;
-        line-height: 46px;
+        line-height: 115%;
         font-weight: 700;
         margin-bottom: 20px;
         display: -webkit-box;
@@ -5271,7 +5285,7 @@ img.thumbnail {
     .parking-page.main-page .parking__bottom .title {
         font-size: 3.75rem;
         margin-top: 20px;
-        line-height: 53px;
+        line-height: 115%;
         margin-bottom: 14px;
     }
     .parking__inner .parking__text {
@@ -5328,7 +5342,7 @@ img.thumbnail {
     }
     .parking__subtitle {
         font-size: 2.25rem;
-        line-height: 38px;
+        line-height: 115%;
     }
     .parking__payment {
         margin: 20px 0 34px;
@@ -5355,7 +5369,7 @@ img.thumbnail {
         margin: 72px 0 26px 0;
     }
     .parking__subtitle.parking__subtitle--top {
-        line-height: 41px;
+        line-height: 115%;
         letter-spacing: 1.1px;
     }
     .parking__subtitle.parking__subtitle--top span {
@@ -5364,7 +5378,7 @@ img.thumbnail {
     }
     .parking-page.main-page .text {
         font-size: 1.5rem;
-        line-height: 34px;
+        line-height: 115%;
         margin-bottom: 26px;
     }
     .parking-page.main-page .top.top-main {
@@ -5390,7 +5404,7 @@ img.thumbnail {
     }
     .main.career-detail .text {
         font-size: 1.5rem;
-        line-height: 32px;
+        line-height: 115%;
         margin-bottom: 50px;
     }
     .main.career-detail .title {
@@ -5412,7 +5426,7 @@ img.thumbnail {
     }
     .main.services-detail .title {
         font-size: 2.25rem;
-        line-height: 42px;
+        line-height: 115%;
     }
     .terasy__inner .shops__item,
     .terasy__inner .shops__item-bg {
@@ -5421,7 +5435,7 @@ img.thumbnail {
     .terasy__subtitle {
         font-size: 1.875rem;
         margin-left: 10px;
-        line-height: 40px;
+        line-height: 115%;
         margin-bottom: 10px;
     }
     .terasy__subtitle span {
@@ -5436,7 +5450,7 @@ img.thumbnail {
     }
     .terasy-page .text {
         font-size: 1.5rem;
-        line-height: 34px;
+        line-height: 115%;
         margin-bottom: 43px;
     }
     .terasy__title {
@@ -5526,9 +5540,9 @@ img.thumbnail {
     }
     .main-page.best-deal .best__top h1,
     .main-page.best-deal .best__top h2 {
-        font-size: 3.125rem;
+        font-size: 2.5rem;
         padding: 0 15px;
-        line-height: 62px;
+        line-height: 115%;
         margin-bottom: 31px;
     }
     .main-page.best-deal .best__top h1 span,
@@ -5624,7 +5638,7 @@ img.thumbnail {
     .main-page .news .shops__title,
     .main-page .events .shops__title {
         font-size: 2.5rem;
-        line-height: 40px;
+        line-height: 115%;
     }
     .main-page .kids {
         margin-bottom: 37px;
@@ -5653,7 +5667,7 @@ img.thumbnail {
     .main-page .shops__title {
         font-size: 2.25rem;
         margin-bottom: 16px;
-        line-height: 40px;
+        line-height: 115%;
     }
     .top.top-main .top__img {
         display: -webkit-box;
@@ -5687,7 +5701,7 @@ img.thumbnail {
     }
     .best .text {
         font-size: 1.5rem;
-        line-height: 34px;
+        line-height: 115%;
         margin-bottom: 28px;
     }
     .top.top-main {
@@ -5700,9 +5714,9 @@ img.thumbnail {
         margin-bottom: 10px;
         max-width: 100%;
     }
-    .footer__list {
+   /* .footer__list {
         margin-bottom: 21px;
-    }
+    }*/
     .footer__title {
         margin-bottom: 22px;
     }
@@ -5710,7 +5724,7 @@ img.thumbnail {
         margin-left: 20px;
     }
     .footer__inner {
-        padding-top: 70px;
+        padding-top: 60px;
     }
     .footer .container {
         padding: 0;
@@ -5730,13 +5744,13 @@ img.thumbnail {
         margin-bottom: 40px;
     }
     .information__inner {
-        padding: 57px 20px;
+        padding: 60px 20px;
         -webkit-box-align: start;
         -ms-flex-align: start;
         align-items: start;
     }
     .information__title {
-        font-size: 2.5rem;
+        font-size: 1.75rem;
         margin-bottom: 25px;
     }
     .information__inner {
@@ -5759,19 +5773,19 @@ img.thumbnail {
     }
     .text-b {
         font-size: 1.25rem;
-        line-height: 28px;
+        line-height: 115%;
     }
     .text {
         font-size: 1.125rem;
         padding-left: 5px;
-        line-height: 28px;
+        line-height: 115%;
         margin-bottom: 35px;
     }
     .shop-detail__mob-test {
         display: block;
         padding-left: 5px;
         font-size: 1.875rem;
-        line-height: 33px;
+        line-height: 115%;
         margin-bottom: 23px;
     }
     .shop-detail__list {
@@ -5868,7 +5882,7 @@ img.thumbnail {
     .shops__title {
         padding-left: 10px;
         margin-bottom: 20px;
-        line-height: 40px;
+        line-height: 115%;
     }
     .gallery {
         margin-bottom: -12px;
@@ -5958,7 +5972,7 @@ img.thumbnail {
         height: 352px;
     }
     .main.events-page .shops__title {
-        line-height: 56px;
+        line-height: 115%;
     }
     .main.events-page .text {
         margin-left: 10px;
@@ -5982,7 +5996,7 @@ img.thumbnail {
         font-size: 1.4375rem;
     }
     .main-page.best-deal .best-deal__title span {
-        line-height: 1.4;
+        line-height: 115%;
     }
     .date-box {
         width: 100%;
@@ -6078,7 +6092,7 @@ img.thumbnail {
     }
     .shop-detail__top h2 {
         font-size: 2.5rem;
-        line-height: 40px;
+        line-height: 115%;
     }
     .parking__categories-inner {
         max-width: 200px;
@@ -6132,7 +6146,7 @@ img.thumbnail {
         margin-left: 25px;
         height: 80px;
         width: 80px;
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
     .parking__form {
         -ms-flex-wrap: wrap;
@@ -6197,8 +6211,8 @@ img.thumbnail {
         height: 340px;
     }
     .information__title {
-        font-size: 2.375rem;
-        line-height: 40px;
+        font-size: 1.75rem;
+        line-height: 115%;
     }
     .information__list span {
         font-size: 2.25rem;
