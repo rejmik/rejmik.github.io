@@ -1,3 +1,42 @@
+/*
+Úvodní banner
+V mobilu je třeba mít jinou verzi - tzn. dostávat z administrace jinou verzi obrázku (tzn. Pozadí mobil)
+
+Content
+Základní šířka contentu od 1.280 px: max-width: 1550 px + padding 0 10 %
+Základní šířka contentu od 1.920 px: width: 1.550 px, padding je 0
+V tabletu a mobilu je padding: 0 5% bez šířky contentu
+
+Typografie
+Výchozí hodnota font-size: 1rem (p,.menu__link)
+Výchozí hodnota line-height:115 %
+h1 - 3.5 rem
+h2 - nad 1.441 px 2.5rem, max. 1.440 px 2.0rem, max. 1.024 px 1.5rem
+h3 - nad 1.441 px 2.0rem, max. 1.440 px 1.5rem, max. 1.024 px 1.25rem
+
+Hamburger menu
+.navbar__btn svg width:20px
+.navbar .menu__link {font-size 1.25 rem}
+.navbar .navbar__link - font-size 1.1rem, 
+
+Čtvercový grid
+Headline ve velkém čtverci 3.5rem, headline v malém čtverci 1.75rem
+Odsazení textů zleva, odspodu zůstává všude stejné 35 a 35 px
+Vždy je to ideální čtverec (tzn. výška a šířka jsou stejné)
+S výjimkou best deals (Nákupy) je vždy vidět headline, anotace najíždí js jako to bylo u Kampaní (Teras)
+
+Kulaté buttony
+.btn-link na mobilech width 80px, height:80px, font-size 1rem
+
+Patička
+.social__link width:80px, heigth:80px
+Všechny headliny 1.75rem, obecný text vč. placeholderu 1rem
+Zmenšit search input
+Obsah zarovnat na cca ideální 1/3
+Snížit padding top a bottom (menší výška patičky)
+Patička s odkazy se otevírá na kliknutí na odkaz (obsah je v HTML vypsaný kvůli SEO)
+*/
+
 html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -50,6 +89,7 @@ h6,
 p {
     padding: 0;
     margin: 0;
+    line-height: 115%;
 }
 p {
     font-size: 1rem;
@@ -856,11 +896,13 @@ body {
         height:575px!important;
         background-size: cover!important;
         background-position:center!important;
+        background-size:cover!important;
     }
     .pokus2 {
         height: 278px!important;
         background-size: cover!important;
         background-position:center!important;
+        background-size:cover!important;
     }
     .information__title {
         font-size: 1.75rem!important;
@@ -1779,7 +1821,7 @@ body {
     color: #fff;
     font-weight: 700;
     position: absolute;
-    bottom: 39px;
+    bottom: 35px;
     left: 35px;
     z-index: 999;
     padding-right: 10px;
@@ -1882,6 +1924,7 @@ body {
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
     position: relative;
     padding: 60px 60px 40px 60px;
+    margin-bottom: 40px;
 }
 .footer__row {
     -webkit-box-pack: justify;
@@ -2166,7 +2209,7 @@ body {
 .main-page .kids .shops__inner {
     margin-bottom: 50px;
 }
-.main-page .kids .btn-link {
+.main-page .fun .btn-link {
     background: -o-linear-gradient(285deg, #2a96d4 0, #62b770 10%);
     background: linear-gradient(165deg, #2a96d4 0, #62b770 10%);
 }
@@ -2499,7 +2542,7 @@ body {
     border-radius: 7px;
     -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
-    height: 360px;
+    height: 262px;
 }
 .main-page .services__row .btn-call {
     height: 100px;
@@ -2556,13 +2599,13 @@ body {
 }
 .main-page .services__item-title {
     position: absolute;
-    font-size: 1.625rem;
+    font-size: 1.75rem;
     line-height: 115%;
     font-weight: 800;
     text-transform: uppercase;
     color: #ffffff;
-    left: 25px;
-    bottom: 50px;
+    left: 35px;
+    bottom: 35px;
 }
 .main-page .services__item-title span {
     font-size: 1.75rem;
@@ -2574,13 +2617,13 @@ body {
     background: -o-linear-gradient(top, #eea941 0%, #157a6e 156%);
     background: linear-gradient(180deg, #eea941 0%, #157a6e 156%);
     opacity: 0.94;
-    height: 760px;
+    height: 563px;
     grid-column-start: span 2;
     grid-row-start: span 2;
 }
 .main-page .services__row--big.services__row .services__item-title {
-    bottom: 150px;
-    left: 25px;
+    bottom: 35px;
+    left: 35px;
 }
 .main-page .services__item-time {
     line-height: 115%;
@@ -2701,7 +2744,7 @@ body {
     background: linear-gradient(145deg, #d83450 89%, #ed683b 100%);
 }
 .best__item {
-    height: 354px;
+    height: 262px;
     width: 100%;
     grid-column-start: span 1;
     grid-row-start: span 1;
@@ -2712,7 +2755,7 @@ body {
 .best__item--big {
     grid-column-start: span 2;
     grid-row-start: span 2;
-    height: 748px;
+    height: 563px;
 }
 .best__item--big .best__hover-logo {
     width: 150px;
@@ -2725,6 +2768,11 @@ body {
 .best__item--big .best__hover .best__info-list {
     font-size: 1rem;
     line-height: 115%;
+}
+.best__item--big .best__hover .best__info-list span {
+    font-size:1.75rem;
+    line-height: 115%;
+    font-weight: 700;
 }
 .best__btn {
     cursor: pointer;
@@ -2866,9 +2914,14 @@ body {
 }
 .best__hover .best__info-list {
     line-height: 115%;
-    font-size: 0.9375rem;
+    font-size: 1.0rem;
     font-weight: 300;
     margin-bottom: 20px;
+}
+.best__hover .best__info-list span {
+    line-height: 115%;
+    font-size: 1.75rem;
+    font-weight: 700;
 }
 .services-page__title {
     margin-top: 150px;
@@ -4128,7 +4181,7 @@ img.thumbnail {
         height: 660px;
     }
     .main-page .services__row .btn {
-        max-width: 280px;
+        max-width: 272px;
         height: 58px;
     }
     .parking__map {
