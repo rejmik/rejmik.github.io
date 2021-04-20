@@ -904,6 +904,9 @@ body {
         background-position:center!important;
         background-size:cover!important;
     }
+    .fun {
+        margin-bottom:110px;
+    }
     .information__title {
         font-size: 1.75rem!important;
     }
