@@ -383,11 +383,12 @@ body {
 .icon-instagram.social__link::after {
     content: "";
     position: absolute;
-    left: -15px;
+    left: -13px;
     top: -13px;
-    width: 128px;
-    height: 128px;
+    width: 95px;
+    height: 105px;
     background-image: url("../images/decorate/insta.png");
+    background-size: cover
 }
 .icon-instagram.social__link::before {
     z-index: 22;
@@ -682,7 +683,7 @@ body {
 .navbar .menu__link {
     font-weight: 200;
     font-size: 1.25rem;
-    line-height: 115%;
+    line-height: 150%;
     color: #1d3354;
 }
 .navbar .menu__list + .menu__list {
@@ -862,7 +863,7 @@ body {
     }
     .navbar .navbar__link {
         font-size: 1.1rem;
-        line-height: 115%;
+        line-height: 150%;
     }
     .navbar__col .menu {
         margin-top: 60px;
@@ -917,7 +918,7 @@ body {
         width: 250px!important;
     }
     .information__list, .information__list a{
-        font-size:1.1rem!important;
+        font-size:1.0rem!important;
         line-height: 150%!important;
     }
     .shops__item:hover .shops__content-descr{
@@ -1618,8 +1619,8 @@ body {
 }
 .information__list,
 .information__list a {
-    font-size: 1.625rem;
-    line-height: 115%;
+    font-size: 1.0rem;
+    line-height: 150%;
     font-weight: 300;
 }
 .information__list span {
@@ -1739,7 +1740,7 @@ body {
     padding-bottom: 60px;
 }
 .information__item.information__mail {
-    width: 460px;
+    width: 400px;
 }
 .information__item--contact {
     margin-left: 115px;
@@ -6192,10 +6193,10 @@ img.thumbnail {
         width: 80px;
     }
     .icon-instagram.social__link::after {
-        height: 102px;
-        width: 102px;
-        left: -12px;
-        top: -12px;
+        height: 105px;
+        width: 95px;
+        left: -13px;
+        top: -13px;
         background-size: cover;
     }
     .social__link {
