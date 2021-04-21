@@ -906,7 +906,7 @@ body {
         background-size:cover!important;
     }
     .fun {
-        margin-bottom:110px;
+        margin-bottom:110px!important;
     }
     .information__title {
         font-size: 1.75rem!important;
