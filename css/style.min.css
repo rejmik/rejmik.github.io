@@ -818,6 +818,9 @@ body {
     top: 10px;
     position: relative;
 }
+.fun {
+    margin-bottom:110px!important;
+}
 @media (max-width: 1860px) {
     .navbar.change .navbar__col .menu,
     .navbar.change .navbar__col .navbar__menu {
