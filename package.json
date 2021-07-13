@@ -1,0 +1,12 @@
+{
+  "name": "richard-watzke",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./css/tailwind.css -c ./tailwind.config.js -o './css/stylesheet.css' --jit --purge './**/*.html, ./css/tailwind.css' -w",
+    "browsersync": "browser-sync start --server --files '*'"
+  },
+  "author": "",
+  "license": "ISC"
+}
