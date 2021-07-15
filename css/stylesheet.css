@@ -489,6 +489,10 @@ h6 {
   font-weight: inherit;
 }
 
+span {
+  font-size:40px;    
+}
+
 /**
  * Reset links to optimize for opt-in styling instead of
  * opt-out.
@@ -1119,7 +1123,7 @@ img {
 
 .interview {
   margin-top: 5rem;
-  text-align: justify;
+  text-align: left;
 }
 
 @media (min-width: 768px) {
@@ -2670,4 +2674,18 @@ iframe.wait-autoplay {
   .lg\:max-w-\[46rem\] {
     max-width: 46rem;
   }
+}
+
+@media (min-width: 1050px) and (max-width: 1279px) {
+  .desktop {
+    font-size: 70px;
+ }
+}
+
+@media (max-width: 1049px) {
+  .desktop {
+    display: none;
+ }
+}
+
 }
